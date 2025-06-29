@@ -22,7 +22,7 @@
 /* end  */
 
 
-.header-text h1 {
+.heading {
     color: #575757;
     font-size: 3.5rem;
 }
@@ -63,4 +63,20 @@
 .about-text h1 {
     font-size: 3rem;
     color: #575757;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    max-width: 80%;
+    margin: 2% auto;
+    gap: 5%;
+}
+
+.recipe-section {
+    align-items: center;
+    text-align: center;
 }
