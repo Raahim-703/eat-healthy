@@ -1,0 +1,33 @@
+/* shered style */
+.text-color{
+    color: rgba(130, 130, 130, 1);
+}
+.btn-primary{
+    background-color:rgb(225, 104, 60);
+    color: white;
+    padding: 10px 20px;
+    border-radius:10px;
+    border: none;
+}
+.color{
+    color: rgb(225, 104, 60);
+}
+/* end  */
+
+
+.header-text h1{
+    color: #575757;
+    font-size: 3.5rem;
+}
+.header-img img{
+    width: 100%;
+}
+.header-text{
+    width: 50%;
+}
+.header-container{
+    display: flex;
+    max-width: 90%;
+    margin: 0px auto;
+    align-items: center;
+}
