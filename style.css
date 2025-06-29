@@ -73,10 +73,44 @@
     display: flex;
     max-width: 80%;
     margin: 2% auto;
-    gap: 5%;
+    gap: 3%;
 }
 
-.recipe-section {
-    align-items: center;
+.card {
+    /* border: 3px solid black; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.card h2 {
+    font-weight: bold;
+}
+
+.recipe {
     text-align: center;
+}
+
+.money {
+    background-color: whitesmoke;
+    max-width: 80%;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 10%;
+    justify-content: space-around;
+}
+.box{
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+.box h1{
+    font-weight:bold;
+    font-size: 2rem;
+}
+footer{
+    background-color: black;
+    align-items: center;
+    text-align:center;
+    color: white;
+    padding: 4% 10px;
 }
